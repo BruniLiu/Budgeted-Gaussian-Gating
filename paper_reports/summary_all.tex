@@ -1,0 +1,24 @@
+\begin{tabular}{l l l c c c r r}
+\hline
+Scene & Exp & Method & PSNR & SSIM & LPIPS & \#G & MB \\
+\hline
+bicycle & baseline\_bicycle\_i15k\_noprune & baseline & NA & NA & | & 4728473 & 1118.34 \\
+bonsai & baseline\_bonsai\_i15k\_noprune & baseline & NA & NA & | & 1066779 & 252.31 \\
+garden & baseline\_garden\_i15k\_noprune & baseline & NA & NA & | & 4210091 & 995.74 \\
+kitchen & baseline\_kitchen\_i15k\_noprune & baseline & NA & NA & | & 1554339 & 367.62 \\
+bicycle & gated\_bicycle\_i15k\_tau30 & gated+pruned & NA & NA & | & 1187330 & 280.82 \\
+bonsai & gated\_bonsai\_i15k\_tau30 & gated+pruned & NA & NA & | & 501857 & 118.7 \\
+garden & gated\_garden\_i15k\_nogateloss & unknown & NA & NA & | & 2031532 & 480.48 \\
+garden & gated\_garden\_i15k\_noprune & gated(no-prune) & NA & NA & | & 4190053 & 991.0 \\
+garden & gated\_garden\_i15k\_tau20 & gated+pruned & NA & NA & | & 2093227 & 495.07 \\
+garden & gated\_garden\_i15k\_tau30 & gated+pruned & NA & NA & | & 1909043 & 451.51 \\
+garden & gated\_garden\_i15k\_tau40 & gated+pruned & NA & NA & | & 2027533 & 479.54 \\
+garden & gated\_garden\_i15k\_tau50 & gated+pruned & NA & NA & | & 2021158 & 478.03 \\
+kitchen & gated\_kitchen\_i15k\_tau30 & gated+pruned & NA & NA & | & 364682 & 86.25 \\
+bicycle & pruneonly\_bicycle\_i15k\_tau30 & prune-only & NA & NA & | & 2134976 & 504.95 \\
+bonsai & pruneonly\_bonsai\_i15k\_tau30 & prune-only & NA & NA & | & 478355 & 113.14 \\
+garden & pruneonly\_garden\_i15k\_tau30 & prune-only & NA & NA & | & 1885615 & 445.97 \\
+kitchen & pruneonly\_kitchen\_i15k\_tau30 & prune-only & NA & NA & | & 687757 & 162.66 \\
+garden & random\_garden\_i15k\_keep45 & random & NA & NA & | & 1896393 & 448.52 \\
+\hline
+\end{tabular}
